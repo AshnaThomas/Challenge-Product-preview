@@ -1,0 +1,87 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+}
+
+.product{
+  background-color: white;
+  width: 45%;
+  margin: 150px auto;
+}
+
+.product-img{
+  width: 50%;
+}
+
+.product-details{
+  float: right;
+  width: 40%;
+  margin:10px 30px auto auto;
+}
+
+.desc-title{
+  color: hsl(228, 11%, 65%);
+  font-family: 'Montserrat';
+  letter-spacing: 3px;
+}
+
+.desc-heading{
+  font-family: 'Fraunces';
+  color: hsl(212, 21%, 14%);
+  width: 210px;
+}
+
+.desc-product{
+  font-family: 'Montserrat';
+  color: hsl(228, 11%, 65%);
+  text-align: left;
+  line-height: 1.5;
+  width: 225px;
+}
+
+.desc-newrate{
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces';
+  font-size: 25px;
+  display: inline-block;
+}
+
+.desc-oldrate{
+  display: inline-block;
+  padding-left: 20px;
+  text-decoration: line-through;
+  color: hsl(228, 11%, 65%);
+  position: relative;
+  bottom: 5px;
+}
+
+.btn {
+  background: hsl(158, 36%, 37%);
+  background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%));
+  background-image: -moz-linear-gradient(top, hsl(158, 36%, 37%));
+  background-image: -ms-linear-gradient(top, hsl(158, 36%, 37%));
+  background-image: -o-linear-gradient(top, hsl(158, 36%, 37%));
+  background-image: linear-gradient(to bottom, hsl(158, 36%, 37%));
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  border: solid hsl(158, 36%, 37%) 5px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: hsl(158, 26%, 18%);
+  background-image: -webkit-linear-gradient(top, hsl(158, 26%, 18%));
+  background-image: -moz-linear-gradient(top, hsl(158, 26%, 18%));
+  background-image: -ms-linear-gradient(top, hsl(158, 26%, 18%));
+  background-image: -o-linear-gradient(top, hsl(158, 26%, 18%));
+  background-image: linear-gradient(to bottom, hsl(158, 26%, 18%));
+  text-decoration: none;
+  border: solid hsl(158, 26%, 18%) 5px;
+  text-align: center;
+}
